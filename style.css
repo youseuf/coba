@@ -1,0 +1,68 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR*/
+.navbar {
+    background: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    background: yellow;
+    display: flex;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+.navbar ul li {
+    margin: 5px;
+    display: inline-flex;
+}
+
+.navbar ul li a {
+    background: red;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background: wheat;
+}
+/*AKHIR NAVBAR*/
+
+/*KONTEN 1*/
+.profil1 img {
+    width: 50vh;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profil1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabel1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+} 
+
+.tabel1 td {
+    display: inline-block;
+    background: yellow;
+    padding: 20px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+/*AKHIR KONTEN 1*/
